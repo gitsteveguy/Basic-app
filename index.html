@@ -9,28 +9,30 @@
 </head>
 
 <body>
+  <div id="particles-js"></div>
   <div class="calculator">
     <input type="text" id="display" readonly>
     <div class="keys">
-      <button onclick="appendCharacter('7')">7</button>
-      <button onclick="appendCharacter('8')">8</button>
-      <button onclick="appendCharacter('9')">9</button>
-      <button onclick="clearDisplay()">C</button>
-      <button onclick="appendCharacter('4')">4</button>
-      <button onclick="appendCharacter('5')">5</button>
-      <button onclick="appendCharacter('6')">6</button>
-      <button onclick="appendCharacter('/')">/</button>
-      <button onclick="appendCharacter('1')">1</button>
-      <button onclick="appendCharacter('2')">2</button>
-      <button onclick="appendCharacter('3')">3</button>
-      <button onclick="appendCharacter('*')">*</button>
-      <button onclick="appendCharacter('0')">0</button>
-      <button onclick="appendCharacter('.')">.</button>
-      <button onclick="calculate()">=</button>
-      <button onclick="appendCharacter('+')">+</button>
-      <button onclick="appendCharacter('-')">-</button>
+      <button id="btn7" onclick="appendCharacter('7')">7</button>
+      <button id="btn8" onclick="appendCharacter('8')">8</button>
+      <button id="btn9" onclick="appendCharacter('9')">9</button>
+      <button id="btnClear" onclick="clearDisplay()">C</button>
+      <button id="btn4" onclick="appendCharacter('4')">4</button>
+      <button id="btn5" onclick="appendCharacter('5')">5</button>
+      <button id="btn6" onclick="appendCharacter('6')">6</button>
+      <button id="btnDivide" onclick="appendCharacter('/')">/</button>
+      <button id="btn1" onclick="appendCharacter('1')">1</button>
+      <button id="btn2" onclick="appendCharacter('2')">2</button>
+      <button id="btn3" onclick="appendCharacter('3')">3</button>
+      <button id="btnMultiply" onclick="appendCharacter('*')">*</button>
+      <button id="btn0" onclick="appendCharacter('0')">0</button>
+      <button id="btnDot" onclick="appendCharacter('.')">.</button>
+      <button id="btnEqual" onclick="calculate()">=</button>
+      <button id="btnAdd" onclick="appendCharacter('+')">+</button>
+      <button id="btnSubtract" onclick="appendCharacter('-')">-</button>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="script.js"></script>
 </body>
 

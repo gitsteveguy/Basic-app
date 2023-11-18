@@ -42,13 +42,155 @@ button {
   font-size: 1.2em;
   border: none;
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+#btn1 {
+  box-shadow: 0 0 15px #007494;
 }
+
+#btn1:hover {
+  box-shadow: 0 0 15px #01941a;
+}
+
+#btn2 {
+  box-shadow: 0 0 15px #ff00ff;
+}
+
+#btn2:hover {
+  box-shadow: 0 0 15px #ff99ff;
+}
+
+#btn3 {
+  box-shadow: 0 0 15px #00ffff;
+}
+
+#btn3:hover {
+  box-shadow: 0 0 15px #99ffff;
+}
+
+#btn4 {
+  box-shadow: 0 0 15px #ff9900;
+}
+
+#btn4:hover {
+  box-shadow: 0 0 15px #ffcc66;
+}
+
+#btn5 {
+  box-shadow: 0 0 15px #6600ff;
+}
+
+#btn5:hover {
+  box-shadow: 0 0 15px #cc66ff;
+}
+
+#btn6 {
+  box-shadow: 0 0 15px #00ff00;
+}
+
+#btn6:hover {
+  box-shadow: 0 0 15px #66ff66;
+}
+
+#btn7 {
+  box-shadow: 0 0 15px #ff0000;
+}
+
+#btn7:hover {
+  box-shadow: 0 0 15px #ff6666;
+}
+
+#btn8 {
+  box-shadow: 0 0 15px #00ff00;
+}
+
+#btn8:hover {
+  box-shadow: 0 0 15px #66ff66;
+}
+
+#btn9 {
+  box-shadow: 0 0 15px #0000ff;
+}
+
+#btn9:hover {
+  box-shadow: 0 0 15px #6666ff;
+}
+
+#btnClear {
+  box-shadow: 0 0 15px #ff6699;
+}
+
+#btnClear:hover {
+  box-shadow: 0 0 15px #ff99cc;
+}
+
+#btnMultiply {
+  box-shadow: 0 0 15px #ff3366;
+}
+
+#btnMultiply:hover {
+  box-shadow: 0 0 15px #ff6699;
+}
+
+#btnDivide {
+  box-shadow: 0 0 15px #66ccff;
+}
+
+#btnDivide:hover {
+  box-shadow: 0 0 15px #99ccff;
+}
+
+#btnAdd {
+  box-shadow: 0 0 15px #ff9933;
+}
+
+#btnAdd:hover {
+  box-shadow: 0 0 15px #ffcc66;
+}
+
+#btnSubtract {
+  box-shadow: 0 0 15px #00cc66;
+}
+
+#btnSubtract:hover {
+  box-shadow: 0 0 15px #33cc99;
+}
+
+#btn0 {
+  box-shadow: 0 0 15px #debb0d;
+}
+
+#btn0:hover {
+  box-shadow: 0 0 15px #930140;
+}
+
+#btnDot {
+  box-shadow: 0 0 15px #4d05f5;
+}
+
+#btnDot:hover {
+  box-shadow: 0 0 15px #c56c07;
+}
+
+#btnEqual {
+  box-shadow: 0 0 15px #eef2ed;
+}
+
+#btnEqual:hover {
+  box-shadow: 0 0 15px #5b1a1a;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00000000;
+  background-position: 50% 50%;
+  z-index: -1
+}
+
+/* 
